@@ -159,6 +159,7 @@
         if (callNow) func.apply(context, args);
       };
     }
+    let images = document.querySelectorAll('.slide-in');
     function slideIn() {
     images.forEach((image) => {
       let imageBottom = image.getBoundingClientRect().bottom;
